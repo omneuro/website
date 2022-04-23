@@ -1,0 +1,13 @@
+:root{
+  --Deep_Violet: #350268;
+  --Metalic_Violet: #57078E;
+  --Turquoise_Blue: #00FFEF;
+  --Bright_Turquoise: #1FDBDF;
+  --Rich_Electric_Blue: #00AACB;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #e9f4f6;
+}

@@ -1,0 +1,63 @@
+:root{
+  --Deep_Violet: #350268;
+  --Metalic_Violet: #57078E;
+  --Turquoise_Blue: #00FFEF;
+  --Bright_Turquoise: #1FDBDF;
+  --Rich_Electric_Blue: #00AACB;
+}
+*{
+  margin:0;
+  padding:0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #e9f4f6 !important;
+}
+
+.container{
+  position: relative;
+  text-align: center;
+  color: #e9f4f6;
+}
+
+.bottom-left{
+  position:absolute;
+  bottom:8px;
+  left: 16px;
+  font-size: x-large;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: x-large;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: x-large;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: x-large;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: x-large;
+}

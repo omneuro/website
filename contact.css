@@ -1,0 +1,63 @@
+:root{
+  --Deep_Violet: #350268;
+  --Metalic_Violet: #57078E;
+  --Turquoise_Blue: #00FFEF;
+  --Bright_Turquoise: #1FDBDF;
+  --Rich_Electric_Blue: #00AACB;
+}
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  overflow: hidden;
+  height: auto;
+  background-color: #e9f4f6;
+  width: 100%;
+}
+
+.container{
+  width: 80%;
+  height: auto;
+  margin: 5% 10% 5% 10%;
+}
+
+img{
+  width: 100%
+  opacity: 1;
+  display: block;
+  transition: 0.5s ease;
+  height: auto;
+}
+
+.text_wrapper{
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #ffffff;
+  position: relative;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  margin-top: -30%;
+  width: 70%;
+  height: auto;
+}
+
+.container:hover .text_wrapper{
+  opacity: 0.9;
+}
+
+.container:hover img{
+  opacity: 0.7;
+}
+
+h4{
+  text-align: center;
+  width: 100%;
+}
+
+#note{
+  font-size:2.5vw;
+}
