@@ -1,0 +1,58 @@
+:root{
+  --Deep_Violet: #350268;
+  --Metalic_Violet: #57078E;
+  --Turquoise_Blue: #00FFEF;
+  --Bright_Turquoise: #1FDBDF;
+  --Rich_Electric_Blue: #00AACB;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background:#e9f4f6;
+}
+.navbar {
+    background:var(--Deep_Violet);
+    z-index: 100;
+    position:fixed;
+    width: 100%;
+}
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #000;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.header {
+    background-color:var(--Rich_Electric_Blue);
+    height: 300px;
+    /* background-position: center; */
+}
+
+.description {
+	left: 50%;
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+}
+
+.description h1 {
+	color: white;
+}
+
+.description p {
+	color: #fff;
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
