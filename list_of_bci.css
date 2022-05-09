@@ -36,13 +36,14 @@ body {
 .header {
     background-color:var(--Rich_Electric_Blue);
     height: 300px;
+    width:100%;
     /* background-position: center; */
 }
 
 .description {
 	left: 50%;
 	position: absolute;
-	top: 45%;
+	top: 30%;
 	transform: translate(-50%, -55%);
 	text-align: center;
 }
