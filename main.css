@@ -17,6 +17,7 @@ body {
     z-index: 100;
     position:fixed;
     width: 100%;
+    top: 0;
 }
 .nav-link,
 .navbar-brand {
@@ -36,8 +37,8 @@ body {
 .header {
     background-image: url('images/star_background.jpg');
     background-size: cover;
-    background-position: center;
-    position: relative;
+    /* background-position: center; */
+    height: 70vh;
 }
 .overlay{
   position: absolute;
