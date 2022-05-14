@@ -35,7 +35,7 @@ body {
 }
 
 .header {
-    background-image: url('images/star_background.jpg');
+    background-image: url('images/landing_page/star_background.jpg');
     background-size: cover;
     /* background-position: center; */
     height: 100vh;
