@@ -63,10 +63,23 @@ body {
 }
 
 .feature{
-  text-align: right;
+  text-align: center;
+  margin-top: 20px;
+}
+.feature p{
+  margin-top:40px;
+  line-height: 30px;
+}
+.feature a{
+  color:black;
+}
+.feature-title{
+  text-align: left;
+  margin-bottom: 30px;
 }
 
 .feature-img{
   height: 200px;
   width: 200px;
+  float:left;
 }
